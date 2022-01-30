@@ -1,7 +1,7 @@
 from config import HNDLR
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from EvaMaria.darkprince.custfilters import (
+from UserBot.Rishabh.custfilters import (
     admin_fliter
 )
 

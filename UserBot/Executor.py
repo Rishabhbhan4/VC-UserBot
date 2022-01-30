@@ -22,7 +22,7 @@ async def eval_(bot, message):
         cmd = (message.text).split(" ", 1)[1]
     except:
         return await bot.send_message(message.chat.id, "`🙄Command not found.`", reply_to_message_id=message.message_id)
-    msg = await bot.send_message(message.chat.id, "`😼Executing eval...`", reply_to_message_id=message.message_id)
+    msg = await bot.send_message(message.chat.id, "`😼Executing user...`", reply_to_message_id=message.message_id)
     old_stderr = sys.stderr
     old_stdout = sys.stdout
     redirected_output = sys.stdout = io.StringIO()

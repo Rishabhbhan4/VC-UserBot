@@ -2,8 +2,8 @@ from typing import List
 
 from pyrogram.types import Chat
 
-from EvaMaria.helpers.get_admins import get as gett
-from EvaMaria.helpers.get_admins import set
+from UserBot.helpers.get_admins import get as gett
+from UserBot.helpers.get_admins import set
 
 
 async def get_administrators(chat: Chat) -> List[int]:

@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 from config import HNDLR
-from EvaMaria.helpers.get_file_id import get_file_id
+from UserBot.helpers.get_file_id import get_file_id
 
 
 @Client.on_message(filters.command(["id"], prefixes=f"{HNDLR}"))

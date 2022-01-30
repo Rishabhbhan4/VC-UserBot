@@ -30,8 +30,8 @@ async def gen_thumb(thumbnail, title, userid, ctitle):
     Image.alpha_composite(image5, image6).save(f"search/temp{userid}.png")
     img = Image.open(f"search/temp{userid}.png")
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("EvaMaria/helpers/other/choose/Roboto-Light.ttf", 55)
-    font2 = ImageFont.truetype("EvaMaria/helpers/other/choose/finalfont.ttf", 65)
+    font = ImageFont.truetype("UserBot/helpers/other/choose/Roboto-Light.ttf", 55)
+    font2 = ImageFont.truetype("UserBot/helpers/other/choose/finalfont.ttf", 65)
     draw.text(
         (20, 630),
         f"{title[:25]}...",

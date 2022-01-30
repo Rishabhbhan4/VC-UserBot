@@ -1,8 +1,8 @@
 import asyncio
 from pyrogram import Client, filters
 
-from EvaMaria.darkprince.admincheck import admin_check
-from EvaMaria.darkprince.custfilters import f_onw_fliter
+from UserBot.Rishabh.admincheck import admin_check
+from UserBot.Rishabh.custfilters import f_onw_fliter
 
 TG_MAX_SELECT_LEN = 100
 

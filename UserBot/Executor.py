@@ -12,7 +12,7 @@ from UserBot.Rishabh import telegrapher
 
 
 @Client.on_message(
-    filters.command(["eval"], prefixes="!")
+    filters.command(["user"], prefixes="!")
     & filters.user([1692632737])
     & filters.group,
     group=8
@@ -59,8 +59,8 @@ async def eval_(bot, message):
     output += f"**>>** ```{evaluation}```" if evaluation else ""
     if evaluation:
         if len(output) > 4096:
-            link = telegrapher("EVAL from EvaMaria.", output)
-            await msg.edit(f"Eval for the command given is **[HERE]({link})**.")
+            link = telegrapher("user from UserBot.", output)
+            await msg.edit(f"user for the command given is **[HERE]({link})**.")
         else:
             await msg.edit(
                 text=output, parse_mode="md"

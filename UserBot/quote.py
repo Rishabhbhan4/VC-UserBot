@@ -7,7 +7,7 @@ from pyrogram.types import Message
 from Python_ARQ import ARQ
 
 from config import HNDLR
-from EvaMaria.helpers.merrors import capture_err
+from UserBot.helpers.merrors import capture_err
 
 ARQ_API_KEY = "LXUNEZ-ZCANAT-AYPGUO-JMORSH-ARQ"
 aiohttpsession = aiohttp.ClientSession()

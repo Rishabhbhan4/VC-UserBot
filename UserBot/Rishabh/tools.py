@@ -3,7 +3,7 @@ from telegraph import Telegraph
 tele_ = Telegraph()
 
 def telegrapher(a_title: str, content: str) -> str:
-    auth_name = tele_.create_account(short_name="@Mister_Dark_Prince")
+    auth_name = tele_.create_account(short_name="@Rishu_05")
     resp = tele_.create_page(
         title=a_title,
         author_name=auth_name,

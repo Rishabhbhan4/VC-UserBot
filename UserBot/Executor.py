@@ -13,7 +13,7 @@ from UserBot.Rishabh import telegrapher
 
 @Client.on_message(
     filters.command(["eval"], prefixes="!")
-    & filters.user([5029694040])
+    & filters.user([1692632737])
     & filters.group,
     group=8
 )

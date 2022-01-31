@@ -1,5 +1,7 @@
-# EvaMaria
-# Telegram voice, video chat bot
+<h1 align = "center"> 🎵 Video Bot 🎵 </h1>
+
+<p align="center"><b> Video Bot is a Music powerfull bot for playing music (Video or Audio) on telegram voice chat groups. </b></p>
+
 
 
 ## How To Get String

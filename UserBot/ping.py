@@ -80,7 +80,7 @@ async def help(client, m: Message):
 ❍ {HNDLR}end - to end playback
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/Rishabhbhan4/Vc-UserBot"
+                        "🌐 Source Code", url="https://t.me/RishabhHelpBot/65"
                     )
                 ],</i>
     await m.reply(HELP)

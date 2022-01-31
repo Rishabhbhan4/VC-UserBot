@@ -42,12 +42,12 @@ def isArgInt(message: Message) -> bool:
 @capture_err
 async def quotly_func(client, message: Message):
     if not message.reply_to_message:
-        return await message.reply_text("__🙄Reply To Message To Quote It!__")
+        return await message.reply_text("__Reply To Message To Quote It!__")
     if not message.reply_to_message.text:
         return await message.reply_text(
             "__Please Reply to Text Messages❗️__"
         )
-    m = await message.reply_text("`👸Wait....`")
+    m = await message.reply_text("`Wait....`")
     if len(message.command) < 2:
         messages = [message.reply_to_message]
 
@@ -70,7 +70,7 @@ async def quotly_func(client, message: Message):
             )
         else:
             if getArg(message) != "r":
-                return await m.edit("**SORRY😭**`")
+                return await m.edit("**SORRY**`")
             reply_message = await client.get_messages(
                 message.chat.id,
                 message.reply_to_message.message_id,
@@ -78,7 +78,7 @@ async def quotly_func(client, message: Message):
             )
             messages = [reply_message]
     else:
-        await m.edit("**🌚ERROR**")
+        await m.edit("**ERROR**")
         return
     try:
         sticker = await quotify(messages)
@@ -91,7 +91,7 @@ async def quotly_func(client, message: Message):
         sticker.close()
     except Exception as e:
         await m.edit(
-            " 🌚Something went wrong..🏃‍♀️"
+            "Something went wrong.."
         )
         e = format_exc()
         print(e)

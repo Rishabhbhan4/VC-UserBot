@@ -1,4 +1,4 @@
-# © @Mister-Dark-Prince 🍀🌚
+# © @Rishu_05 🍀
 
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait

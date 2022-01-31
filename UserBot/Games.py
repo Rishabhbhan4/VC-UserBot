@@ -5,10 +5,10 @@ from pyrogram.errors import FloodWait
 from config import HNDLR
 
 
-DART_E_MOJI = "🎯"
+DART = "🎯"
 BOWLING = "🎳"
-TRY_YOUR_LUCK = "🎰"
-GOAL_E_MOJI = "⚽"
+LUCK = "🎰"
+FOOTBALL = "⚽"
 BASKETBALL = "🏀"
 
 
@@ -19,7 +19,7 @@ async def throw_dart(client, message):
         rep_mesg_id = message.reply_to_message.message_id
     await client.send_dice(
         chat_id=message.chat.id,
-        emoji=DART_E_MOJI,
+        emoji=DART,
         disable_notification=True,
         reply_to_message_id=rep_mesg_id
     )
@@ -45,7 +45,7 @@ async def luck_cownd(client, message):
         rep_mesg_id = message.reply_to_message.message_id
     await client.send_dice(
         chat_id=message.chat.id,
-        emoji=TRY_YOUR_LUCK,
+        emoji=LUCK,
         disable_notification=True,
         reply_to_message_id=rep_mesg_id
     )
@@ -58,7 +58,7 @@ async def roll_dice(client, message):
         rep_mesg_id = message.reply_to_message.message_id
     await client.send_dice(
         chat_id=message.chat.id,
-        emoji=GOAL_E_MOJI,
+        emoji=FOOTBALL,
         disable_notification=True,
         reply_to_message_id=rep_mesg_id
     )

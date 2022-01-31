@@ -88,7 +88,7 @@ async def help(client, m: Message):
 @Client.on_message(filters.command(["Good morning", "Gud morning", "gud mrng", "Gm"], prefixes=f"{HNDLR}"))
 async def goodmorning(client, m: Message):
     GM = f"""
-<i>☕️Gøød Mørning..⏱️ Have a nice day..</i>
+<i> ☕️Gøød Mørning..⏱️ Have a nice day.. </i>
 """
     await m.reply(GM)
 
@@ -96,7 +96,7 @@ async def goodmorning(client, m: Message):
 @Client.on_message(filters.command(["Good Evening", "Gud evng", "gud evening", "Ge", "Gd Evng"], prefixes=f"{HNDLR}"))
 async def goodevening(client, m: Message):
     GE = f"""
-<i> Good Evening..☕️</i>
+<i> Good Evening..☕️ </i>
 """
     await m.reply(GE)
 
@@ -112,7 +112,7 @@ async def goodnight(client, m: Message):
 async def repo(client, m: Message):
     await m.delete()
     REPO = f"""
-<i>"**A Powerful [BOT](https://telegra.ph/Rishabh-Bhan-12-06) to Make Your Groups Secured and Organized ! \n\n↼ Øwñêr ⇀ : 『 [Rishabh](t.me/Rishu_05) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ Recently\n╰──────────────\n\n»»» @LisaSupportChat «««"  
+<i> "**A Powerful [BOT](https://telegra.ph/Rishabh-Bhan-12-06) to Make Your Groups Secured and Organized ! \n\n↼ Øwñêr ⇀ : 『 [Rishabh](t.me/Rishu_05) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ Recently\n╰──────────────\n\n»»» @LisaSupportChat «««"  
 BUTTONS = InlineKeyboardMarkup(
       [[
         InlineKeyboardButton("⚡ ʀᴇᴘᴏꜱɪᴛᴏʀʏ🔥", url=f"https://github.com/Rishabhbhan4/Jennie-Bot"),
@@ -124,5 +124,5 @@ BUTTONS = InlineKeyboardMarkup(
         InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇꜱ ☑️", url="https://t.me/RishabhHelpBot"),
         InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ ➡️", url="https://t.me/Rishu_05"),
       ]]
-    )</i>
+    ) </i>
  await m.reply(Repo)

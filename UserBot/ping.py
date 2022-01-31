@@ -76,7 +76,9 @@ async def help(client, m: Message):
 ❍ {HNDLR}resume - to continue playing a song or video
 ❍ {HNDLR}pause - to pause the playback a song or video 
 ❍ {HNDLR}skip - to skip songs or videos
-❍ {HNDLR}end - to end playback</i>
+❍ {HNDLR}end - to end playback
+
+For More Commands:- https://t.me/RishabhHelpBot</i>
 """
     await m.reply(HELP)
 

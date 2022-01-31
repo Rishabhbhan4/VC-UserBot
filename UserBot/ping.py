@@ -111,5 +111,18 @@ async def goodnight(client, m: Message):
 @Client.on_message(filters.command(["repo"], prefixes=f"{HNDLR}"))
 async def help(client, m: Message):
     await m.delete()
-    HELP = f"""
+    REPO = f"""
 <i>Hello {m.from_user.mention}!
+BUTTONS = InlineKeyboardMarkup(
+      [[
+        InlineKeyboardButton("⚡ ʀᴇᴘᴏꜱɪᴛᴏʀʏ🔥", url=f"https://github.com/Rishabhbhan4/Jennie-Bot"),
+        InlineKeyboardButton(" ᴊᴏɪɴ 💫", url=f"https://t.me/RishabhHelpBot"),
+      ],[
+        InlineKeyboardButton("Jennie Owner ❣️", url="https://t.me/Rishu_05"),
+        InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url="https://t.me/lisaSupportChat"),
+      ],[
+        InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇꜱ ☑️", url="https://t.me/RishabhHelpBot"),
+        InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ ➡️", url="https://t.me/Rishu_05"),
+      ]]
+    )
+ await m.reply(Repo)

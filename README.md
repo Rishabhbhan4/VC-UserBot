@@ -2,6 +2,7 @@
 
 <p align="center"><b> Vc UserBot is a powerfull Userbot for playing music on telegram voice chat groups. </b></p>
 
+<p align="center"><a href="https://t.me/lisaSupportChat"><img src="https://te.legra.ph/file/bb57ccbd4be51218fccb6.jpg"></a></p>
 
 
 ## How To Get String

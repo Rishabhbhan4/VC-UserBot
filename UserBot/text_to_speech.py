@@ -23,7 +23,7 @@ def convert(text):
 @Client.on_message(filters.command(["tts"], prefixes=f"{HNDLR}"))
 async def text_to_speech(_, message: Message):
     if not message.reply_to_message:
-        return await message.reply_text("__😫Reply to some texts!__")
+        return await message.reply_text("__Reply to some texts!__")
     if not message.reply_to_message.text:
         return await message.reply_text("__❗️Reply to some texts!__")
     m = await message.reply_text("🔁 Processing...")

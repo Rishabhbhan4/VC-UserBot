@@ -27,7 +27,7 @@ async def song(client, message: Message):
         )
         return
     pablo = await client.send_message(
-        message.chat.id, f"**🔎 Searching Song 🌚** `{urlissed}`"
+        message.chat.id, f"**🔎 Searching Song** `{urlissed}`"
     )
     search = SearchVideos(f"{urlissed}", offset=1, mode="dict", max_results=1)
     mi = search.result()
@@ -238,7 +238,7 @@ async def vsong(client, message: Message):
     urlissed = get_text(message)
 
     pablo = await client.send_message(
-        message.chat.id, f"**🔎 Searching video 🎞..** `{urlissed}`"
+        message.chat.id, f"**🔎 Searching video..** `{urlissed}`"
     )
     if not urlissed:
         await pablo.edit("Invalid Command Syntax Please Check help Menu To Know More!")

@@ -6,7 +6,7 @@
 
 
 ## How To Get String
-[![stringsession](https://img.shields.io/badge/repl.it-generateStringName-yellowgreen)](https://repl.it/@subinps/getStringName)
+[![stringsession](https://img.shields.io/badge/repl.it-generateStringName-yellowgreen)](https://replit.com/@Rishabhbhan5/Rishabh-String-Session#main.py)
 
 
 ## 🅓🅔🅟🅛🅞🅨

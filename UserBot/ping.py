@@ -78,7 +78,11 @@ async def help(client, m: Message):
 ❍ {HNDLR}pause - to pause the playback a song or video 
 ❍ {HNDLR}skip - to skip songs or videos
 ❍ {HNDLR}end - to end playback</i>
-"""
+                [
+                    InlineKeyboardButton(
+                        "🌐 Source Code", url="https://github.com/Rishabhbhan4/Vc-UserBot"
+                    )
+                ],
     await m.reply(HELP)
 
 @Client.on_message(filters.command(["Good morning", "Gud morning", "gud mrng", "Gm"], prefixes=f"{HNDLR}"))

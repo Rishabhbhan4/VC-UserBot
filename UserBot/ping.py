@@ -77,12 +77,12 @@ async def help(client, m: Message):
 ❍ {HNDLR}resume - to continue playing a song or video
 ❍ {HNDLR}pause - to pause the playback a song or video 
 ❍ {HNDLR}skip - to skip songs or videos
-❍ {HNDLR}end - to end playback</i>
+❍ {HNDLR}end - to end playback
                 [
                     InlineKeyboardButton(
                         "🌐 Source Code", url="https://github.com/Rishabhbhan4/Vc-UserBot"
                     )
-                ],
+                ],</i>
     await m.reply(HELP)
 
 @Client.on_message(filters.command(["Good morning", "Gud morning", "gud mrng", "Gm"], prefixes=f"{HNDLR}"))
@@ -112,7 +112,7 @@ async def goodnight(client, m: Message):
 async def repo(client, m: Message):
     await m.delete()
     REPO = f"""
-REPO_TEXT = "**A Powerful [BOT](https://telegra.ph/Rishabh-Bhan-12-06) to Make Your Groups Secured and Organized ! \n\n↼ Øwñêr ⇀ : 『 [Rishabh](t.me/Rishu_05) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ Recently\n╰──────────────\n\n»»» @LisaSupportChat «««"  
+<i>"**A Powerful [BOT](https://telegra.ph/Rishabh-Bhan-12-06) to Make Your Groups Secured and Organized ! \n\n↼ Øwñêr ⇀ : 『 [Rishabh](t.me/Rishu_05) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ Recently\n╰──────────────\n\n»»» @LisaSupportChat «««"  
 BUTTONS = InlineKeyboardMarkup(
       [[
         InlineKeyboardButton("⚡ ʀᴇᴘᴏꜱɪᴛᴏʀʏ🔥", url=f"https://github.com/Rishabhbhan4/Jennie-Bot"),
@@ -124,5 +124,5 @@ BUTTONS = InlineKeyboardMarkup(
         InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇꜱ ☑️", url="https://t.me/RishabhHelpBot"),
         InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ ➡️", url="https://t.me/Rishu_05"),
       ]]
-    )
+    )</i>
  await m.reply(Repo)

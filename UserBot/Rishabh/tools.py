@@ -7,7 +7,7 @@ def telegrapher(a_title: str, content: str) -> str:
     resp = tele_.create_page(
         title=a_title,
         author_name=auth_name,
-        author_url="https://t.me/TGFRNDZ",
+        author_url="https://t.me/LisaSupportChat",
         html_content=content,
     )
     link_ = resp["url"]

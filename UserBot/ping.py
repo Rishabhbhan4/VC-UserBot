@@ -65,7 +65,7 @@ async def restart(client, m: Message):
 async def help(client, m: Message):
     await m.delete()
     HELP = f"""
-<i>🤓Hellow {m.from_user.mention}!
+<i>Hello {m.from_user.mention}!
 
 🛠 HELP MENU
 ⚡ COMMANDS
@@ -81,7 +81,7 @@ async def help(client, m: Message):
 """
     await m.reply(HELP)
 
-@Client.on_message(filters.command(["Good morning", "Gud morning", "gud mrng", "ഗുഡ് മോർണിംഗ്"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["Good morning", "Gud morning", "gud mrng", "Gm"], prefixes=f"{HNDLR}"))
 async def goodmorning(client, m: Message):
     GM = f"""
 <i>☕️Gøød Mørning..⏱️ Have a nice day..</i>
@@ -89,7 +89,7 @@ async def goodmorning(client, m: Message):
     await m.reply(GM)
 
 
-@Client.on_message(filters.command(["Good Evening", "Gud evng", "gud evening", "ഗുഡ് ഈവനിംഗ്", "ഗുഡ് ഈവെനിംഗ്"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["Good Evening", "Gud evng", "gud evening", "Ge", "Gd Evng"], prefixes=f"{HNDLR}"))
 async def goodevening(client, m: Message):
     GE = f"""
 <i> Good Evening..☕️</i>
@@ -97,9 +97,9 @@ async def goodevening(client, m: Message):
     await m.reply(GE)
 
 
-@Client.on_message(filters.command(["Good Night", "Gud nt", "gud night", "ഗുഡ് നൈറ്റ്‌", "gudnyt"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["Good Night", "Gud nt", "gud night", "Gn", "gudnyt"], prefixes=f"{HNDLR}"))
 async def goodnight(client, m: Message):
     GN = f"""
-<i> 😴Gøød Night </i>
+<i> 😴Good Night </i>
 """
     await m.reply(GN)

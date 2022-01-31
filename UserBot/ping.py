@@ -88,7 +88,7 @@ async def help(client, m: Message):
 @Client.on_message(filters.command(["Good morning", "Gud morning", "gud mrng", "Gm"], prefixes=f"{HNDLR}"))
 async def goodmorning(client, m: Message):
     GM = f"""
-<i> ☕️Gøød Mørning..⏱️ Have a nice day.. </i>
+<i> ☕️Good Morning..⏱️ Have a nice day.. </i>
 """
     await m.reply(GM)
 

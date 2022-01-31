@@ -29,7 +29,7 @@ async def _human_time_duration(seconds):
     return ", ".join(parts)
 
 
-@Client.on_message(filters.command(["ping", "Alive"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["king"], prefixes=f"{HNDLR}"))
 async def ping(client, m: Message):
     start = time()
     current_time = datetime.utcnow()
@@ -38,7 +38,7 @@ async def ping(client, m: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await m_reply.edit(
-        f"<b>I'm Alive🍀</b> `{delta_ping * 1000:.3f} ms` \n<b>⏳Uptime </b> - `{uptime}`"
+        f"<b>I'm Online🍀</b> `{delta_ping * 1000:.3f} ms` \n<b>⏳Uptime </b> - `{uptime}`"
     )
 
 
@@ -65,8 +65,7 @@ async def restart(client, m: Message):
 async def help(client, m: Message):
     await m.delete()
     HELP = f"""
-<i> Hello {m.from_user.mention}!
-
+<i>🤓Hellow {m.from_user.mention}!
 🛠 HELP MENU
 ⚡ COMMANDS
 ❍ {HNDLR}help - to see a list of commands
@@ -77,15 +76,11 @@ async def help(client, m: Message):
 ❍ {HNDLR}resume - to continue playing a song or video
 ❍ {HNDLR}pause - to pause the playback a song or video 
 ❍ {HNDLR}skip - to skip songs or videos
-❍ {HNDLR}end - to end playback
-                [
-                    InlineKeyboardButton(
-                        "🌐 Source Code", url="https://t.me/RishabhHelpBot/65"
-                    )
-                ],</i>
+❍ {HNDLR}end - to end playback</i>
+"""
     await m.reply(HELP)
 
-@Client.on_message(filters.command(["Good morning", "Gud morning", "gud mrng", "Gm"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["Good morning", "Gud morning", "gud mrng", "ഗുഡ് മോർണിംഗ്"], prefixes=f"{HNDLR}"))
 async def goodmorning(client, m: Message):
     GM = f"""
 <i>🍂☕️Gøød Mørning..⏱️ Have a nice day..🙂</i>
@@ -93,18 +88,18 @@ async def goodmorning(client, m: Message):
     await m.reply(GM)
 
 
-@Client.on_message(filters.command(["Good Evening", "Gud evng", "gud evening", "Ge", "Gd Evng"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["Good Evening", "Gud evng", "gud evening", "ഗുഡ് ഈവനിംഗ്", "ഗുഡ് ഈവെനിംഗ്"], prefixes=f"{HNDLR}"))
 async def goodevening(client, m: Message):
     GE = f"""
-<i> Good Evening..☕️</i>
+<i> 😁Gøød Evening..☕️</i>
 """
     await m.reply(GE)
 
 
-@Client.on_message(filters.command(["Good Night", "Gud nt", "gud night", "Gn", "gudnyt"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["Good Night", "Gud nt", "gud night", "ഗുഡ് നൈറ്റ്‌", "gudnyt"], prefixes=f"{HNDLR}"))
 async def goodnight(client, m: Message):
     GN = f"""
-<i> 😴Good Night</i>
+<i> 😴🛌Gøød Night 🌚</i>
 """
     await m.reply(GN)
 

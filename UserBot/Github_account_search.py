@@ -9,7 +9,7 @@ from UserBot.helpers.merrors import capture_err
 @capture_err
 async def github(_, message):
     if len(message.command) != 2:
-        await message.reply_text("🙄__Give me a valid github username__")
+        await message.reply_text("__Give me a valid github username__")
         return
     username = message.text.split(None, 1)[1]
     URL = f"https://api.github.com/users/{username}"
@@ -32,16 +32,16 @@ async def github(_, message):
                 followers = result["followers"]
                 following = result["following"]
                 caption = f"""**Info Of {name}**
-**🧸Username:** `{username}`
+**👤Username:** `{username}`
 **💌Bio:** `{bio}`
 **🔗Profile Link:** [Here]({url})
-**⛱Company:** `{company}`
+**🏢Company:** `{company}`
 **🗓Created On:** `{created_at}`
-**🧰Repositories:** `{repositories}`
+**🔧Repositories:** `{repositories}`
 **🎓Blog:** `{blog}`
 **📍Location:** `{location}`
-**💡Followers:** `{followers}`
-**📡Following:** `{following}`"""
+**👥Followers:** `{followers}`
+**💡Following:** `{following}`"""
             except Exception as e:
                 print(str(e))
     await message.reply_photo(photo=avatar_url, caption=caption)

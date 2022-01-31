@@ -7,8 +7,16 @@
 ## How To Get String
 [![stringsession](https://img.shields.io/badge/repl.it-generateStringName-yellowgreen)](https://repl.it/@subinps/getStringName)
 
-## How To Host
-The easiest way to deploy this Bot
-<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/Rishabhbhan4/VC-UserBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
+## 🅓🅔🅟🅛🅞🅨
+[![ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Rishabhbhan4/Jennie-Bot)
+
+
+## 🆅🅴🆁🅸🅰🅱🅻🅴🆂
+[ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ](https://github.com/Rishabhbhan4/Jennie-Bot/blob/master/Configuration)
+
+## 🆂🆄🅿🅿🅾🆁🆃
+[![Jennie](https://img.shields.io/badge/Jennie-Channel-red?style=for-the-badge&logo=telegram)](https://t.me/RishabhHelpBot)</br></br>
+[![Jennie](https://img.shields.io/badge/Lisa-Group-red?style=for-the-badge&logo=telegram)](https://t.me/lisaSupportChat)</br></br>
+[![CONTACT ME](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/Rishu_05)
 

@@ -1,6 +1,6 @@
-<h1 align = "center"> 🎵 Video Bot 🎵 </h1>
+<h1 align = "center"> 🎵 Vc UserBot 🎵 </h1>
 
-<p align="center"><b> Video Bot is a Music powerfull bot for playing music (Video or Audio) on telegram voice chat groups. </b></p>
+<p align="center"><b> Vc UserBot is a powerfull Userbot for playing music on telegram voice chat groups. </b></p>
 
 
 

@@ -104,22 +104,3 @@ async def goodnight(client, m: Message):
 <i> 😴🛌Gøød Night 🌚</i>
 """
     await m.reply(GN)
-
-@Client.on_message(filters.command(["repo"], prefixes=f"{HNDLR}"))
-async def repo(client, m: Message):
-    await m.delete()
-    REPO = f"""
-<i> "**A Powerful [BOT](https://telegra.ph/Rishabh-Bhan-12-06) to Make Your Groups Secured and Organized ! \n\n↼ Øwñêr ⇀ : 『 [Rishabh](t.me/Rishu_05) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ Recently\n╰──────────────\n\n»»» @LisaSupportChat «««"  
-BUTTONS = InlineKeyboardMarkup(
-      [[
-        InlineKeyboardButton("⚡ ʀᴇᴘᴏꜱɪᴛᴏʀʏ🔥", url=f"https://github.com/Rishabhbhan4/Jennie-Bot"),
-        InlineKeyboardButton(" ᴊᴏɪɴ 💫", url=f"https://t.me/RishabhHelpBot"),
-      ],[
-        InlineKeyboardButton("Jennie Owner ❣️", url="https://t.me/Rishu_05"),
-        InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url="https://t.me/lisaSupportChat"),
-      ],[
-        InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇꜱ ☑️", url="https://t.me/RishabhHelpBot"),
-        InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ ➡️", url="https://t.me/Rishu_05"),
-      ]]
-    ) </i>
- await m.reply(Repo)

@@ -109,7 +109,7 @@ async def goodnight(client, m: Message):
     await m.reply(GN)
 
 @Client.on_message(filters.command(["repo"], prefixes=f"{HNDLR}"))
-async def help(client, m: Message):
+async def repo(client, m: Message):
     await m.delete()
     REPO = f"""
 <i>Hello {m.from_user.mention}!

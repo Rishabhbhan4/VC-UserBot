@@ -6,7 +6,6 @@
         "Telegram",
         "MusicPlayer",
         "VideoPlayer"
-        "UserBot"
     ],
     "repository": "https://github.com/Rishabhbhan4/VC-UserBot",
     "env": {

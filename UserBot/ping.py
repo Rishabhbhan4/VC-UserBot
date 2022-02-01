@@ -65,7 +65,7 @@ async def restart(client, m: Message):
 async def help(client, m: Message):
     await m.delete()
     HELP = f"""
-<i>🤓Hellow {m.from_user.mention}!
+<i>Hello {m.from_user.mention}!
 🛠 HELP MENU
 ⚡ COMMANDS
 ❍ {HNDLR}help - to see a list of commands

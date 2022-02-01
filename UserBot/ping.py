@@ -118,3 +118,23 @@ async def HI(client, m: Message):
 ☁☁☁☁☁☁☁☁</i>
 """
     await m.reply(HI)
+
+
+@Client.on_message(filters.command(["Repo", "Repository"], prefixes=f"{HNDLR}"))
+async def HI(client, m: Message):
+    Repo = f"""
+<i>
+  REPO_TEXT = "**A Powerful [UserBot](https://telegra.ph/Rishabh-Bhan-12-06) to !↼ Øwñêr ⇀ : 『 [Rishabh](t.me/Rishu_05) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ Recently\n╰──────────────\n\n»»» @LisaSupportChat «««"
+  
+  
+        ⚡ ʀᴇᴘᴏꜱɪᴛᴏʀʏ🔥", url=f"https://github.com/Rishabhbhan4/Jennie-Bot
+         ᴊᴏɪɴ 💫", url=f"https://t.me/RishabhHelpBot
+      
+        Jennie Owner ❣️", url="https://t.me/Rishu_05
+        ꜱᴜᴘᴘᴏʀᴛ ⚡", url="https://t.me/lisaSupportChat
+   
+        ⚡ ᴜᴘᴅᴀᴛᴇꜱ ☑️", url="https://t.me/RishabhHelpBot
+        ᴅᴇᴠᴇʟᴏᴘᴇʀ ➡️", url="https://t.me/Rishu_05     
+    </i>
+"""
+    await m.reply(Repo)

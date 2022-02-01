@@ -104,3 +104,17 @@ async def goodnight(client, m: Message):
 <i> 😴🛌Gøød Night 🌚</i>
 """
     await m.reply(GN)
+
+
+@Client.on_message(filters.command(["Hi", "Hii", "Hello"], prefixes=f"{HNDLR}"))
+async def HI(client, m: Message):
+    HI = f"""
+<i>
+🌺✨✨🌺✨🌺🌺🌺
+🌺✨✨🌺✨✨🌺✨
+🌺🌺🌺🌺✨✨🌺✨
+🌺✨✨🌺✨✨🌺✨
+🌺✨✨🌺✨🌺🌺🌺
+☁☁☁☁☁☁☁☁</i>
+"""
+    await m.reply(HI)

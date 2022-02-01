@@ -1,11 +1,12 @@
 {
-    "name": "EvaMaria",
+    "name": "UserBot",
     "description": "Telegram UserBot for Video Chat.",
     "logo": "https://telegra.ph/file/e99fd5f4e72127ed67c65.jpg",
     "keywords": [
         "Telegram",
         "MusicPlayer",
         "VideoPlayer"
+        "UserBot"
     ],
     "repository": "https://github.com/Rishabhbhan4/VC-UserBot",
     "env": {

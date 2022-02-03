@@ -78,7 +78,7 @@ async def help(client, m: Message):
 ❍ {HNDLR}skip - to skip songs or videos
 ❍ {HNDLR}end - to end playback
 
-For More Commands:- https://t.me/RishabhHelpBot</i>
+For More Commands:- https://t.me/RishabhHelpBot/74</i>
 """
     await m.reply(HELP)
 

@@ -7,7 +7,7 @@
         "MusicPlayer",
         "VideoPlayer"
     ],
-    "repository": "https://github.com/Rishabhbhan4/VC-UserBot",
+    "repository": "https://github.com/Rishabhbhan5/VC-UserBot-1",
     "env": {
         "SESSION": {
             "description": "Pyrogram String Session",
@@ -28,7 +28,7 @@
         },
         "SUDO_USERS": {
             "description": "User ID list user counts as admin everywhere(separator using space)",
-            "required": false            
+            "required": false
         }
     },
     "addons": [],
@@ -48,3 +48,4 @@
     },
     "stack": "container"
 }
+

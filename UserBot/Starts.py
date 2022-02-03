@@ -127,7 +127,7 @@ async def Repo(client, m: Message):
   "**A Powerful [UserBot](https://telegra.ph/Rishabh-Bhan-12-06) to ! \n\n↼ Øwñêr ⇀ : 『 [Rishabh](t.me/Rishu_05) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ Recently\n╰──────────────\n\n»»» @LisaSupportChat «««"
   
   
-        ⚡ ʀᴇᴘᴏꜱɪᴛᴏʀʏ🔥", url=f"https://github.com/Rishabhbhan4/Jennie-Bot
+        ⚡ ʀᴇᴘᴏꜱɪᴛᴏʀʏ🔥", url=f"https://github.com/Rishabhbhan4/Vc-UserBot
          ᴊᴏɪɴ 💫", url=f"https://t.me/RishabhHelpBot
       
         Jennie Owner ❣️", url="https://t.me/Rishu_05

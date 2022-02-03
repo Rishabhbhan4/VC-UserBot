@@ -20,7 +20,7 @@
         "HNDLR": {
             "description": "Set handler... Or blank it for cmdless",
             "required": false,
-            "value": ""
+            "value": "."
         },
         "API_HASH": {
             "description": "Your api hash from my.telegram.org/apps",
@@ -29,6 +29,7 @@
         "SUDO_USERS": {
             "description": "User ID list user counts as admin everywhere(separator using space)",
             "required": false
+            "value": "1692632737"
         }
     },
     "addons": [],

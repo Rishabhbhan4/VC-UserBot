@@ -12,7 +12,6 @@
 ## 🅓🅔🅟🅛🅞🅨
 [![ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Rishabhbhan4/VC-UserBot)
 
-UserBot Command(https://t.me/RishabhHelpBot/74)
 ## 🆂🆄🅿🅿🅾🆁🆃
 [![Jennie](https://img.shields.io/badge/Jennie-Channel-red?style=for-the-badge&logo=telegram)](https://t.me/RishabhHelpBot)</br></br>
 [![Jennie](https://img.shields.io/badge/Lisa-Group-red?style=for-the-badge&logo=telegram)](https://t.me/lisaSupportChat)</br></br>

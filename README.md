@@ -2,7 +2,6 @@
 
 <p align="center"><b> Vc UserBot is a powerfull Userbot for playing music on telegram voice chat groups. </b></p>
 
-<p align="center"><a href="https://t.me/lisaSupportChat"><img src="https://telegra.ph/file/ee94bfab0f6bd6dd7bb10.jpg"></a></p>
 
 [![UserBot Commands](https://img.shields.io/badge/Telegram-UserBot%20Commands-informational)](https://t.me/RishabhHelpBot/74)
 

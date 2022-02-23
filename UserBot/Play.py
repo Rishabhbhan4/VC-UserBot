@@ -106,7 +106,7 @@ async def play(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://te.legra.ph/file/bf986b5076c60acd6d951.jpg",
+                    photo="https://telegra.ph/file/d6f92c979ad96b2031cba.png",
                     caption=f"""
 **#⃣ Song Added  {pos}
 🏷️ Title: [{songname}]({link})
@@ -126,7 +126,7 @@ async def play(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://te.legra.ph/file/36f1926e871aea03e96c6.jpg",
+                    photo="https://telegra.ph/file/6213d2673486beca02967.png",
                     caption=f"""
 **▶ Start Playing Songs
 🏷️ Title: [{songname}]({link})
@@ -232,7 +232,7 @@ async def vplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://te.legra.ph/file/bf986b5076c60acd6d951.jpg",
+                    photo="https://telegra.ph/file/d6f92c979ad96b2031cba.png",
                     caption=f"""
 **#⃣ Video Queued To  {pos}
 🏷️ Title: [{songname}]({link})
@@ -256,7 +256,7 @@ async def vplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://te.legra.ph/file/36f1926e871aea03e96c6.jpg",
+                    photo="https://telegra.ph/file/6213d2673486beca02967.png",
                     caption=f"""
 **▶ Start Playing Videos
 🏷️ Title: [{songname}]({link})
@@ -370,7 +370,7 @@ async def playfrom(client, m: Message):
                     add_to_queue(chat_id, songname, location, link, "Audio", 0)
                     # await m.reply_to_message.delete()
                     await m.reply_photo(
-                        photo="https://te.legra.ph/file/36f1926e871aea03e96c6.jpg",
+                        photo="https://telegra.ph/file/6213d2673486beca02967.png",
                         caption=f"""
 **▶ Start Playing Songs Dari {chat}
 🏷️ Title: [{songname}]({link})
